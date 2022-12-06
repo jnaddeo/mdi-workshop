@@ -5,17 +5,9 @@ channels:
 dependencies:
 # python packages
   - python
-  - cudatoolkit
-  - flit
   - pip
   - pandas
-  - notebook 
-  - nb_conda_kernels
-  - opencv
-  - pypdf2
-  - pyarrow
-  - appdirs
-  - ipywidgets
+  - numpy
   - geopandas 
 # R packages
 # pip installs
@@ -23,5 +15,8 @@ dependencies:
     - error_analysis
     - delayed
     - imbalanced-learn   
-    - torch==1.12+cpu torchvision==0.13.0+cpu torchtext==0.13.0 -f https://download.pytorch.org/whl/cpu/torch_stable.html
+    - torch==1.12+cpu 
+    - torchvision==0.13.0+cpu 
+    - torchtext==0.13.0 
+    - -f https://download.pytorch.org/whl/cpu/torch_stable.html
     - autogluon 
