@@ -24,6 +24,8 @@ When needed, output from code can be stored here.
 
 ## Set up on local machine
 
+To properly train ML models we will need to allow them to run for hours. While goolge colab is great for inpsecting the data, it will time out before training a proper model. The following directions are a quick start to enable you to train models on your personal computer. 
+
 1. Clone this repo to your desktop
 2. Download [Anaconda](https://www.anaconda.com/)
 3. Download [VS Code](https://code.visualstudio.com/)
