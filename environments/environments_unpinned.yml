@@ -4,19 +4,13 @@ channels:
   - nodefaults
 dependencies:
 # python packages
-  - python
+  - python==3.9
   - pip
   - pandas
   - numpy
-  - geopandas 
+  - geopandas
+  - ipykernel
+  - statsmodels
 # R packages
 # pip installs
   - pip:
-    - error_analysis
-    - delayed
-    - imbalanced-learn   
-    - torch==1.12+cpu 
-    - torchvision==0.13.0+cpu 
-    - torchtext==0.13.0 
-    - -f https://download.pytorch.org/whl/cpu/torch_stable.html
-    - autogluon 
